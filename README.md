@@ -6,7 +6,7 @@ The first step to use this code is to run:
 git clone https://github.com/robot-love/depth_from_video_in_the_wild.git
 
 ### mask_generation 
-This folder contains Nick's code (annotator.m) to generate possibly moving object masks
+This folder contains Nick's code ('annotator.m') to generate possibly moving object masks
 
 ### odom_results
 This folder contains example odometry results. The python code read_odom.py can be run to view the group's replication of the results of the original paper.
