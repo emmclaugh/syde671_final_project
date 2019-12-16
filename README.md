@@ -20,5 +20,6 @@ This folder contains code from the [struct2depth](https://github.com/tensorflow/
 
 ### `depth_prediction_test.py` and `transfrom_prediciton_test.py`
 These two python scripts are set up to be run to inference the depth estimation and odometry estimation networks on a single example. To run code in this repo, first be sure that the depth from videos in the wild repository has been cloned. Then download the following data into the example_model directory:
-[Example Model](https://www.googleapis.com/download/storage/v1/b/gresearch/o/depth_from_video_in_the_wild%2Fcheckpoints%2Fkitti_odometry_learned_intrinsics.zip?generation=1568245497722898&alt=media)
-You can then inference depth or transformation on the data example provided.
+[Example Model](https://www.googleapis.com/download/storage/v1/b/gresearch/o/depth_from_video_in_the_wild%2Fcheckpoints%2Fkitti_odometry_learned_intrinsics.zip?generation=1568245497722898&alt=media)  
+
+You can then inference depth or transformation on the data example provided by simply running either of the python scripts.
