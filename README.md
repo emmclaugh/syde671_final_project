@@ -18,6 +18,6 @@ This folder contains code for testing the limitations of optical flow. That is, 
 This folder contains code from the [struct2depth](https://github.com/tensorflow/models/tree/master/research/struct2depth) repository for generating training data from the kitti raw dataset. The code in this folder was augmented by group 8 to allow for skipping a specific number of frames.
 
 ### depth_prediction_test.py and transfrom_prediciton_test.py
-These two python scripts are set up to be run to inference the depth estimation and odometry estimation networks on a single example. To run code in this repo, create a new directory called example_model and download the following data into the directory:
+These two python scripts are set up to be run to inference the depth estimation and odometry estimation networks on a single example. To run code in this repo, first be sure that the depth from videos in the wild repository has been cloned. Then download the following data into the example_model directory:
 [Example Model](https://www.googleapis.com/download/storage/v1/b/gresearch/o/depth_from_video_in_the_wild%2Fcheckpoints%2Fkitti_odometry_learned_intrinsics.zip?generation=1568245497722898&alt=media)
 You can then inference depth or transformation on the data example provided.
