@@ -10,7 +10,7 @@ from depth_from_video_in_the_wild import model
 
 if __name__ == '__main__':
     # Load images
-    img = np.array(Image.open("depth_from_video_in_the_wild/data_example/erfurt_93/0000000002.png"))
+    img = np.array(Image.open("data_example/erfurt_93/0000000002.png"))
     img1 = img[:,:416]
     img1 = np.expand_dims(img1,axis=0)
 

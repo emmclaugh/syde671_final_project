@@ -1,0 +1,1 @@
+Download and save the [Example Model](https://www.googleapis.com/download/storage/v1/b/gresearch/o/depth_from_video_in_the_wild%2Fcheckpoints%2Fkitti_odometry_learned_intrinsics.zip?generation=1568245497722898&alt=media) here.
