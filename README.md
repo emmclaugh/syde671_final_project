@@ -2,6 +2,9 @@
 
 This repository contains the code used by group 8 to test the robustness of the [depth from videos in the wild](https://github.com/google-research/google-research/tree/master/depth_from_video_in_the_wild) paper. Note that the depth from videos in the wild code is not included in the repository.
 
+The first step to use this code is to run:
+git clone https://github.com/robot-love/depth_from_video_in_the_wild.git
+
 ### mask_generation 
 This folder contains Nick's code (annotator.m) to generate possibly moving object masks
 
